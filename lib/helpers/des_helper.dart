@@ -1,4 +1,4 @@
-// des_helper.dart - FINAL VERSION
+// des_helper.dart
 import 'dart:convert';
 
 class LocalDES {
@@ -9,7 +9,6 @@ class LocalDES {
     rkb = keySchedule(key);
   }
 
-  // Public wrappers to use with plain text
   String encryptText(String text) {
     final hex = ascii.encode(text).map((e) => e.toRadixString(16).padLeft(2, '0')).join();
     return encrypt(hex);
@@ -149,7 +148,7 @@ class LocalDES {
     return bin2hex(permute(combined, final_perm, 64));
   }
 
-  // DES Tables (pindahkan semua isi tabel di sini seperti dari sebelumnya)
+  // DES Tables
   final List<int> initial_perm = [
   58, 50, 42, 34, 26, 18, 10, 2,
   60, 52, 44, 36, 28, 20, 12, 4,
