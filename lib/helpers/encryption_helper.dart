@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 
 class EncryptionHelper {
-  // Key untuk enkripsi (bisa diganti sesuai kebutuhan)
+
   static const String _defaultKey = "QuickBites2024!";
 
   /// Enkripsi menggunakan XOR dengan salt
