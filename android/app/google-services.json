@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872154204208",
+    "project_id": "tubeskripto-67c25",
+    "storage_bucket": "tubeskripto-67c25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872154204208:android:7f3e59e6e2499c7d2685f5",
+        "android_client_info": {
+          "package_name": "com.example.tubes_kripto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuzo813z3kzvMpLBMfH8LdrDjkW8_TvEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
